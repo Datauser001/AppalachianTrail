@@ -15,7 +15,7 @@ export default class ProductDetails extends Component {
                     <img src="https://via.placeholder.com/600" className="mr-3" alt="Product" />
                     <div className="media-body">
                         <h1>{this.state.name}</h1>
-                        <p>{this.state.description}</p>
+                        <p>{this.state.description}!!!!</p>
                         <p>£{this.state.price}</p>
                     </div>
                 </div>
